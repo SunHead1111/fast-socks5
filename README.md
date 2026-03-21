@@ -17,7 +17,6 @@
 您可以直接在服務器終端（需 **root** 權限）運行以下命令來一鍵下載並執行：
 
 ```bash
-# 請將下方的 URL 替換為您自己 GitHub 倉庫中 fast-socks5.sh 的 Raw 連結
 bash <(curl -Ls https://raw.githubusercontent.com/SunHead1111/fast-socks5/main/fast-socks5.sh)
 ```
 
