@@ -57,7 +57,7 @@ install_sing_box() {
     esac
 
     FILE_NAME="sing-box-${VERSION_NUM}-linux-${DL_ARCH}"
-    DOWNLOAD_URL="https://hk.gh-proxy.org/https://github.com/SagerNet/sing-box/releases/download/${LATEST_VERSION}/${FILE_NAME}.tar.gz"
+    DOWNLOAD_URL="https://v6.gh-proxy.org/https://github.com/SagerNet/sing-box/releases/download/${LATEST_VERSION}/${FILE_NAME}.tar.gz"
 
     echo -e "${YELLOW}正在下載 ${DOWNLOAD_URL}...${NC}"
     wget -qO sing-box.tar.gz "$DOWNLOAD_URL"
